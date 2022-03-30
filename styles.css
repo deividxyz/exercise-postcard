@@ -1,17 +1,22 @@
 body {
 	background: black;
+	font-family: Ubuntu;
+	font-size: 20px;
 }
 
+/*
 * {
 	border: 1px dashed red;
 	min-height: 10px;
 }
 
+*/
 .postcard {
 	background: white; /*clase postcard*/
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
 }
 
 .postcard-header {
@@ -31,17 +36,21 @@ body {
 	text-align: center;
 }
 
-.postcard-footer button {
+button {
 	background-color: darkgray;
 	color: black;
 	padding-bottom: 5px;
+}
+
+button:hover {
+	background-color: darkslategray;
 }
 
 .body-left {
 	padding: 5px;
 }
 .body-right {
-	padding: 5px;
+	padding: 15px;
 }
 
 p:nth-of-type(1) {
@@ -56,8 +65,12 @@ h1 {
 }
 
 input {
+	font-size: 14px;
 	border: none;
-	border-bottom: grey 5px;
+	border-bottom: 1.5px solid #949494;
+	outline: none;
+	margin-bottom: 22px;
+
 }
 
 p {
