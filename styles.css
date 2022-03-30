@@ -1,0 +1,65 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background: white; /*clase postcard*/
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex; /* los hijos se organizan horizontal con flex, block es vertical */
+}
+.postcard-header img {
+	/* seteo la imagen que venga de un papa postcard header a 50px x 50px */
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	background-color: darkgray;
+	color: black;
+	padding-bottom: 5px;
+}
+
+.body-left {
+	padding: 5px;
+}
+.body-right {
+	padding: 5px;
+}
+
+p:nth-of-type(1) {
+	margin-top: 0px;
+	color: red;
+}
+
+h1 {
+	/* el h1 lo pongo con ancho 90% */
+	width: 90%;
+	margin: 0px;
+}
+
+input {
+	border: none;
+	border-bottom: grey 5px;
+}
+
+p {
+	font-size: large;
+}
